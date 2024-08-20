@@ -1,0 +1,67 @@
+body {
+    background-color: #ecdabd;
+
+}
+
+ul li {
+    display: inline;
+    font-size: 40px;
+    margin-left: 20px;
+    border-bottom: 5px solid #9fc89b;
+    margin-left: 100px;
+    line-height: 3;
+}
+
+#myName{
+    font-size: 50px;
+}
+
+h1 span{
+    font-weight: 1500;
+    color:  #447b3f;
+}
+
+ul li:hover {
+    font-weight: bold;
+}
+
+.introText {
+    display: flex;
+    flex-direction: column;
+    color: #6aa765;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid #e5ad53;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+#me {
+    background: repeating-linear-gradient(45deg,
+            #e5ad5300,
+            #86612600 10px,
+            #e5ad5323 10px,
+            #8661262d 20px);
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+#title1 {
+    margin-top: 100px;
+}
+
+.experience {
+    display: flex;
+    flex: 1 0 100%;
+    justify-content: space-between;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
