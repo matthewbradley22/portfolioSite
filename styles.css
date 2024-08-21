@@ -12,13 +12,22 @@ ul li {
     line-height: 3;
 }
 
-#myName{
+#myName {
     font-size: 50px;
 }
 
-h1 span{
+h1 span {
     font-weight: 1500;
-    color:  #447b3f;
+    color: #447b3f;
+}
+
+h2 span {
+    font-weight: 900;
+    color: #447b3f
+}
+
+#background{
+    line-height: 2;
 }
 
 ul li:hover {
@@ -36,7 +45,15 @@ ul li:hover {
     justify-content: space-around;
     border-bottom: solid #e5ad53;
     padding-bottom: 10px;
+    align-items: flex-start;
+}
+
+.introPhoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 0px 0px;
 }
 
 #me {
@@ -56,8 +73,7 @@ ul li:hover {
 
 .experience {
     display: flex;
-    flex: 1 0 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 a {
