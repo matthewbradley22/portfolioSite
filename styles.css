@@ -80,6 +80,22 @@ ul li:hover {
     justify-content: space-around;
 }
 
+.experienceImages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience p{
+    line-height: 2;
+    font-size: 20px;
+    text-align: start;
+}
+
+p span{
+    font-weight: bold;
+}
+
 a {
     color: black;
     text-decoration: none;
