@@ -3,16 +3,13 @@ body {
 
 }
 
-ul li {
+.sections li {
     display: inline;
     font-size: 40px;
     margin-left: 20px;
     border-bottom: 5px solid #9fc89b;
     margin-left: 100px;
     line-height: 3;
-}
-
-.sections li{
     text-shadow: 2px 2px 2px #9fc89b;
 }
 
@@ -100,4 +97,9 @@ a {
     color: black;
     text-decoration: none;
 
+}
+
+#title2 ul li{
+ font-weight: bold;
+ font-size: 20px;
 }
