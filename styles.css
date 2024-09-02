@@ -1,16 +1,27 @@
+html {
+    background-color: #b1a38c;
+}
+
 body {
     background-color: #ecdabd;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
 .sections li {
-    display: inline;
-    font-size: 40px;
-    margin-left: 20px;
+    display: block;
+    font-size: 20px;
     border-bottom: 5px solid #9fc89b;
-    margin-left: 100px;
-    line-height: 3;
     text-shadow: 2px 2px 2px #9fc89b;
+    line-height: 2;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 50px;
 }
 
 #myName {
@@ -27,29 +38,32 @@ h2 span {
     color: #447b3f
 }
 
-#background{
+#background {
     line-height: 2;
+    margin-top: 0px;
 }
 
 ul li:hover {
     font-weight: bold;
 }
 
+.intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
 .introText {
     display: flex;
     flex-direction: column;
     color: #6aa765;
-}
-
-.intro {
-    display: flex;
-    justify-content: space-around;
-    border-bottom: solid #e5ad53;
-    padding:0px 100px 30px 100px;
-    align-items: flex-start;
+    margin-top: 20px;
 }
 
 .introPhoto {
+    position: fixed;
+    margin-top: 100px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,11 +79,26 @@ ul li:hover {
             #8661262d 20px);
     padding: 5px;
     border-radius: 15px;
-
+    animation-name: fadeIn;
+    animation-duration: 1s;
 }
 
-#title1 {
-    margin-top: 100px;
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
 }
 
 .experience {
@@ -77,19 +106,19 @@ ul li:hover {
     justify-content: space-around;
 }
 
-.experienceImages{
+.experienceImages {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.experience p{
+.experience p {
     line-height: 2;
     font-size: 20px;
     text-align: start;
 }
 
-p span{
+p span {
     font-weight: bold;
 }
 
@@ -99,7 +128,29 @@ a {
 
 }
 
-#title2 ul li{
- font-weight: bold;
- font-size: 20px;
+#title2 ul li {
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+}
+
+
+#title2 ul li {
+    padding: 20px 20px 20px 20px;
+}
+
+#title2 ul li:hover {
+    background-color: #f3c67d;
+    border: 1px solid #ffffff;
+    border-radius: 25%;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+li p{
+    font-size: 15px;
+    font-weight: 100;
 }

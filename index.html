@@ -7,70 +7,72 @@
     <meta name="viewport" content="width=device-width">
     <title>My Website</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="sections">
-                <li><a href="#experiences">About me</a></li>
-                <li> <a href="#projects">Projects </a> </li>
-                <li> <a href="#interests">Interests</a></li>
-            </ul>
-        </nav>
-    </header>
     <main>
         <div class="intro">
-            <div class="introText">
-                <h1 id="myName">
-                    Hi, my name is <span>Matthew</span>.
-                </h1>
-                <h2 id="background">
-                    I'm a <span>Biologist</span> from Arizona. <br>
-                    I'm interested in <span>bioinformatics</span>,
-                    <span>biostatistics</span>, <br>and
-                    <span>modeling</span> biological processes.
+            <div>
+                <div class="introPhoto">
+                    <img id="cacti" src="Images/Cacti.png" alt="cacti" height="40" width="70" />
+                    <img id="me" src="Images/ProfessionalPic.png" alt="Me" height="250"
+                " />
+                    <nav id="navigation">
+                        <ul class="sections">
+                            <li> <a href="#projects">Projects </a> </li>
+                            <li> <a href="#interests">Interests</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <section class="content">
+                <div class="introText">
+                    <h1 id="myName">
+                        Hi, my name is <span>Matthew</span>.
+                    </h1>
+                    <h2 id="background">
+                        <p>I graduated from UT Austin in 2022 with a degree in
+                            <span>Computational Biology</span>. I did two years of research in
+                            Dr. Caroline Farrior's lab, building a mathematical model
+                            of Janzen-Connell dynamics. I also did a summer of research for
+                            Dr. Daniel Spalink at Texas A&M University, where I began the creation
+                            of an R package to pull and clean data from the
+                            Global Biodiversity Information Facility database.
+                        <p>I am
+                            currently working for Dr. Dylan McCreedy analyzing neutrophil
+                            states in single-cell RNA-seq data.</p>
+                        </p>
+                    </h2>
+                </div>
+                <div id="title2">
+                    <h1 id="projects">Projects</h1>
+                    <ul>
+                        <li>Janzen-Connell Dynamics:
+                            <p>While at UT Austin, I developed a mathematical
+                                model under Dr. Caroline Farrior. This model
+                                simulated how specialist naturalist enemies combat
+                                ecological drift. Namely, we examined how the levels
+                                of enemy specialization necessary to combat drift
+                                in communities of varying sizes.
+                            </p>
+                        </li>
+                        <li>curatoR
+                            <p>
+                                I spent a summer
+                            </p>
+                        </li>
 
-                </h2>
-            </div>
-            <div class="introPhoto">
-                <img id="cacti" src="Images/Cacti.png" alt="cacti" height="100" width="300" />
-                <img id="me" src="Images/ProfessionalPic.png" alt="Me" height="400" />
-            </div>
+                        <li>Single cell RNA sequencing</li>
+                        <li>Web Projects</li>
+                    </ul>
+                </div>
+                <div id="title3">
+                    <h1 id="interests">Interests</h1>
+                </div>
+            </section>
         </div>
-        <div id="title1">
-            <h1 id="experiences">About me</h1>
-        </div>
-        <article class="experience">
-            <p>I graduated from UT Austin in 2022 with a degree in
-                <span>Computational Biology</span>. <br>I did two years of research in
-                Dr. Caroline Farrior's lab, building a mathematical  <br>model
-                of Janzen-Connell dynamics. I also did a summer of research for <br>
-                Dr. Daniel Spalink at Texas A&M University,  where I began the creation<br>
-                 of an R package to pull and clean data from the
-                Global Biodiversity Information<br> Facility database. I am 
-                currently working for Dr. Dylan McCreedy analyzing <br> neutrophil
-                states in single-cell RNA-seq research.
-            </p>
-            <div class="experienceImages">
-                <img src="Images/thesisTitle.png" height="200" />
-                <img src="Images/IMG_3112.png" height="200" width="300"/>
-            </div>
-        </article>
-        <div id="title2">
-            <h1 id="projects">Projects</h1>
-            <ul>
-               <li>Janzen-Connell Dynamics</li> 
-                <p>While at UT Austin </p>
-                <li>curatoR</li>
-                <li>Single cell RNA sequencing</li>
-                <li>Neutrophil Heterogeneity</li>
-                <li>Web Projects</li>
-            </ul>
-        </div>
-        <div id="title3">
-            <h1 id="interests">Interests</h1>
-        </div>
+
     </main>
 </body>
 
