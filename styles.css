@@ -132,10 +132,6 @@ a {
     font-weight: bold;
     font-size: 20px;
     list-style: none;
-}
-
-
-#title2 ul li {
     padding: 20px 20px 20px 20px;
 }
 
@@ -143,6 +139,13 @@ a {
     background-color: #f3c67d;
     border: 1px solid #ffffff;
     border-radius: 25%;
+}
+
+#title3 ul li {
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+    padding: 20px 20px 20px 20px;
 }
 
 p {
@@ -153,4 +156,8 @@ p {
 li p{
     font-size: 15px;
     font-weight: 100;
+}
+
+#projects{
+    border-bottom: 1px solid black;
 }
