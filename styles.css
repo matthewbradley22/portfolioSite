@@ -9,7 +9,7 @@ body {
 
 }
 
-.sections li {
+.sections>li {
     display: block;
     font-size: 20px;
     border-bottom: 5px solid #9fc89b;
@@ -153,11 +153,24 @@ p {
     font-size: 20px;
 }
 
-li p{
+li p {
     font-size: 15px;
     font-weight: 100;
 }
 
-#projects{
+#projects {
     border-bottom: 1px solid black;
+}
+
+.links {
+    padding: 20px 0px 0px 0px;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    display: inline;
+    padding: 10px;
 }
